@@ -1,0 +1,56 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 499951,
+                "file_path": "results\\addingNuronsTest3\\Move To Target\\Move To Target-499951.onnx",
+                "reward": -32.79545454545455,
+                "creation_time": 1742396688.9290967,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest3\\Move To Target\\Move To Target-499951.pt"
+                ]
+            },
+            {
+                "steps": 999957,
+                "file_path": "results\\addingNuronsTest3\\Move To Target\\Move To Target-999957.onnx",
+                "reward": -19.689655172413794,
+                "creation_time": 1742403031.475687,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest3\\Move To Target\\Move To Target-999957.pt"
+                ]
+            },
+            {
+                "steps": 1499998,
+                "file_path": "results\\addingNuronsTest3\\Move To Target\\Move To Target-1499998.onnx",
+                "reward": 17.0,
+                "creation_time": 1742409164.139665,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest3\\Move To Target\\Move To Target-1499998.pt"
+                ]
+            },
+            {
+                "steps": 1589757,
+                "file_path": "results\\addingNuronsTest3\\Move To Target\\Move To Target-1589757.onnx",
+                "reward": -18.625,
+                "creation_time": 1742410455.1559327,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest3\\Move To Target\\Move To Target-1589757.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1589757,
+            "file_path": "results\\addingNuronsTest3\\Move To Target.onnx",
+            "reward": -18.625,
+            "creation_time": 1742410455.1559327,
+            "auxillary_file_paths": [
+                "results\\addingNuronsTest3\\Move To Target\\Move To Target-1589757.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
