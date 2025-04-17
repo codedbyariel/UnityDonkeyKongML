@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1742391171",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "E:\\Unity Project\\Mario Project\\venv\\Scripts\\mlagents-learn E:\\ConfigMLAgent\\configuration.yaml --run-id=addingNuronsTest2",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1742391199"
+    },
+    "total": 28.218362700019497,
+    "count": 1,
+    "self": 0.055423099955078214,
+    "children": {
+        "run_training.setup": {
+            "total": 0.13686760002747178,
+            "count": 1,
+            "self": 0.13686760002747178
+        },
+        "TrainerController.start_learning": {
+            "total": 28.026072000036947,
+            "count": 1,
+            "self": 0.0007655001245439053,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 28.02528079994954,
+                    "count": 1,
+                    "self": 28.02528079994954
+                },
+                "trainer_threads": {
+                    "total": 8.00006091594696e-07,
+                    "count": 1,
+                    "self": 8.00006091594696e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 2.489995677024126e-05,
+                    "count": 1,
+                    "self": 2.489995677024126e-05
+                }
+            }
+        }
+    }
+}
