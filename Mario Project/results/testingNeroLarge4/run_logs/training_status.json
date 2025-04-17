@@ -1,0 +1,56 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 499981,
+                "file_path": "results\\testingNeroLarge4\\Move To Target\\Move To Target-499981.onnx",
+                "reward": 115.08333333333333,
+                "creation_time": 1743246577.9035273,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge4\\Move To Target\\Move To Target-499981.pt"
+                ]
+            },
+            {
+                "steps": 649270,
+                "file_path": "results\\testingNeroLarge4\\Move To Target\\Move To Target-649270.onnx",
+                "reward": 176.4375,
+                "creation_time": 1743249043.9670882,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge4\\Move To Target\\Move To Target-649270.pt"
+                ]
+            },
+            {
+                "steps": 999968,
+                "file_path": "results\\testingNeroLarge4\\Move To Target\\Move To Target-999968.onnx",
+                "reward": 242.54545454545453,
+                "creation_time": 1743253150.0861793,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge4\\Move To Target\\Move To Target-999968.pt"
+                ]
+            },
+            {
+                "steps": 1132116,
+                "file_path": "results\\testingNeroLarge4\\Move To Target\\Move To Target-1132116.onnx",
+                "reward": null,
+                "creation_time": 1743254798.216074,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge4\\Move To Target\\Move To Target-1132116.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1132116,
+            "file_path": "results\\testingNeroLarge4\\Move To Target.onnx",
+            "reward": null,
+            "creation_time": 1743254798.216074,
+            "auxillary_file_paths": [
+                "results\\testingNeroLarge4\\Move To Target\\Move To Target-1132116.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
