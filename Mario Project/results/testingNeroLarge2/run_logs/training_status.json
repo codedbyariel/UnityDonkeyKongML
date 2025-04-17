@@ -1,0 +1,65 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 2499986,
+                "file_path": "results\\testingNeroLarge2\\Move To Target\\Move To Target-2499986.onnx",
+                "reward": 319.2352941176471,
+                "creation_time": 1742855460.7813213,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge2\\Move To Target\\Move To Target-2499986.pt"
+                ]
+            },
+            {
+                "steps": 2999936,
+                "file_path": "results\\testingNeroLarge2\\Move To Target\\Move To Target-2999936.onnx",
+                "reward": 177.0,
+                "creation_time": 1742860993.277485,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge2\\Move To Target\\Move To Target-2999936.pt"
+                ]
+            },
+            {
+                "steps": 3499995,
+                "file_path": "results\\testingNeroLarge2\\Move To Target\\Move To Target-3499995.onnx",
+                "reward": 404.8918918918919,
+                "creation_time": 1742866784.3736346,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge2\\Move To Target\\Move To Target-3499995.pt"
+                ]
+            },
+            {
+                "steps": 3999993,
+                "file_path": "results\\testingNeroLarge2\\Move To Target\\Move To Target-3999993.onnx",
+                "reward": 601.7777777777778,
+                "creation_time": 1742872985.1445756,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge2\\Move To Target\\Move To Target-3999993.pt"
+                ]
+            },
+            {
+                "steps": 4339723,
+                "file_path": "results\\testingNeroLarge2\\Move To Target\\Move To Target-4339723.onnx",
+                "reward": 741.84,
+                "creation_time": 1742877434.5501823,
+                "auxillary_file_paths": [
+                    "results\\testingNeroLarge2\\Move To Target\\Move To Target-4339723.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4339723,
+            "file_path": "results\\testingNeroLarge2\\Move To Target.onnx",
+            "reward": 741.84,
+            "creation_time": 1742877434.5501823,
+            "auxillary_file_paths": [
+                "results\\testingNeroLarge2\\Move To Target\\Move To Target-4339723.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

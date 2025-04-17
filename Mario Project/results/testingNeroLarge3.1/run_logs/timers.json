@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1743239870",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "E:\\Unity Project\\Mario Project\\venv\\Scripts\\mlagents-learn E:\\ConfigMLAgent\\configuration.yaml --run-id=testingNeroLarge3.1",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1743240136"
+    },
+    "total": 265.80136090004817,
+    "count": 1,
+    "self": 0.032348199747502804,
+    "children": {
+        "run_training.setup": {
+            "total": 0.16849210020154715,
+            "count": 1,
+            "self": 0.16849210020154715
+        },
+        "TrainerController.start_learning": {
+            "total": 265.6005206000991,
+            "count": 1,
+            "self": 0.00994330015964806,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 265.5300320000388,
+                    "count": 1,
+                    "self": 265.5300320000388
+                },
+                "trainer_threads": {
+                    "total": 2.6999041438102722e-06,
+                    "count": 1,
+                    "self": 2.6999041438102722e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.06054259999655187,
+                    "count": 1,
+                    "self": 0.00029639992862939835,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.06024620006792247,
+                            "count": 1,
+                            "self": 0.06024620006792247
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

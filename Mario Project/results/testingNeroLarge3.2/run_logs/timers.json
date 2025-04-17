@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1743240172",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "E:\\Unity Project\\Mario Project\\venv\\Scripts\\mlagents-learn E:\\ConfigMLAgent\\configuration.yaml --run-id=testingNeroLarge3.2",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1743240237"
+    },
+    "total": 64.3497003999073,
+    "count": 1,
+    "self": 1.3442994998767972,
+    "children": {
+        "run_training.setup": {
+            "total": 0.39731650007888675,
+            "count": 1,
+            "self": 0.39731650007888675
+        },
+        "TrainerController.start_learning": {
+            "total": 62.60808439995162,
+            "count": 1,
+            "self": 0.0004883999936282635,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.60753450007178,
+                    "count": 1,
+                    "self": 62.60753450007178
+                },
+                "TrainerController._save_models": {
+                    "total": 6.149988621473312e-05,
+                    "count": 1,
+                    "self": 6.149988621473312e-05
+                }
+            }
+        }
+    }
+}
