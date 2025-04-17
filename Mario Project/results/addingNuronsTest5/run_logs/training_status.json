@@ -1,0 +1,65 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 1999988,
+                "file_path": "results\\addingNuronsTest5\\Move To Target\\Move To Target-1999988.onnx",
+                "reward": 320.16,
+                "creation_time": 1743307683.7664332,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest5\\Move To Target\\Move To Target-1999988.pt"
+                ]
+            },
+            {
+                "steps": 2157467,
+                "file_path": "results\\addingNuronsTest5\\Move To Target\\Move To Target-2157467.onnx",
+                "reward": 368.0,
+                "creation_time": 1743310280.1608214,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest5\\Move To Target\\Move To Target-2157467.pt"
+                ]
+            },
+            {
+                "steps": 2157467,
+                "file_path": "results\\addingNuronsTest5\\Move To Target\\Move To Target-2157467.onnx",
+                "reward": null,
+                "creation_time": 1743312636.4296732,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest5\\Move To Target\\Move To Target-2157467.pt"
+                ]
+            },
+            {
+                "steps": 2157467,
+                "file_path": "results\\addingNuronsTest5\\Move To Target\\Move To Target-2157467.onnx",
+                "reward": null,
+                "creation_time": 1743312660.588879,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest5\\Move To Target\\Move To Target-2157467.pt"
+                ]
+            },
+            {
+                "steps": 2162428,
+                "file_path": "results\\addingNuronsTest5\\Move To Target\\Move To Target-2162428.onnx",
+                "reward": -160.7173913043478,
+                "creation_time": 1743312856.348772,
+                "auxillary_file_paths": [
+                    "results\\addingNuronsTest5\\Move To Target\\Move To Target-2162428.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2162428,
+            "file_path": "results\\addingNuronsTest5\\Move To Target.onnx",
+            "reward": -160.7173913043478,
+            "creation_time": 1743312856.348772,
+            "auxillary_file_paths": [
+                "results\\addingNuronsTest5\\Move To Target\\Move To Target-2162428.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
