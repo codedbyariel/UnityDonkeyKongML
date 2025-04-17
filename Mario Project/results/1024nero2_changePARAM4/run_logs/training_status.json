@@ -1,0 +1,74 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 499984,
+                "file_path": "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-499984.onnx",
+                "reward": 215.02439024390245,
+                "creation_time": 1744242470.357274,
+                "auxillary_file_paths": [
+                    "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-499984.pt"
+                ]
+            },
+            {
+                "steps": 999970,
+                "file_path": "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-999970.onnx",
+                "reward": 253.94444444444446,
+                "creation_time": 1744250809.6962485,
+                "auxillary_file_paths": [
+                    "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-999970.pt"
+                ]
+            },
+            {
+                "steps": 1499982,
+                "file_path": "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-1499982.onnx",
+                "reward": 241.0,
+                "creation_time": 1744259671.3050854,
+                "auxillary_file_paths": [
+                    "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-1499982.pt"
+                ]
+            },
+            {
+                "steps": 1999980,
+                "file_path": "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-1999980.onnx",
+                "reward": 286.76190476190476,
+                "creation_time": 1744268924.649792,
+                "auxillary_file_paths": [
+                    "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-1999980.pt"
+                ]
+            },
+            {
+                "steps": 2499968,
+                "file_path": "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-2499968.onnx",
+                "reward": 249.7826086956522,
+                "creation_time": 1744277398.567945,
+                "auxillary_file_paths": [
+                    "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-2499968.pt"
+                ]
+            },
+            {
+                "steps": 2950402,
+                "file_path": "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-2950402.onnx",
+                "reward": 121.23076923076923,
+                "creation_time": 1744285144.129482,
+                "auxillary_file_paths": [
+                    "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-2950402.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2950402,
+            "file_path": "results\\1024nero2_changePARAM4\\Move To Target.onnx",
+            "reward": 121.23076923076923,
+            "creation_time": 1744285144.129482,
+            "auxillary_file_paths": [
+                "results\\1024nero2_changePARAM4\\Move To Target\\Move To Target-2950402.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
