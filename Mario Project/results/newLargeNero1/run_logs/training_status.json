@@ -1,0 +1,65 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 2499986,
+                "file_path": "results\\newLargeNero1\\Move To Target\\Move To Target-2499986.onnx",
+                "reward": 323.82608695652175,
+                "creation_time": 1743656617.3451357,
+                "auxillary_file_paths": [
+                    "results\\newLargeNero1\\Move To Target\\Move To Target-2499986.pt"
+                ]
+            },
+            {
+                "steps": 2999966,
+                "file_path": "results\\newLargeNero1\\Move To Target\\Move To Target-2999966.onnx",
+                "reward": 256.25,
+                "creation_time": 1743663349.2036948,
+                "auxillary_file_paths": [
+                    "results\\newLargeNero1\\Move To Target\\Move To Target-2999966.pt"
+                ]
+            },
+            {
+                "steps": 3499999,
+                "file_path": "results\\newLargeNero1\\Move To Target\\Move To Target-3499999.onnx",
+                "reward": 212.15217391304347,
+                "creation_time": 1743670182.306994,
+                "auxillary_file_paths": [
+                    "results\\newLargeNero1\\Move To Target\\Move To Target-3499999.pt"
+                ]
+            },
+            {
+                "steps": 3999952,
+                "file_path": "results\\newLargeNero1\\Move To Target\\Move To Target-3999952.onnx",
+                "reward": 314.52,
+                "creation_time": 1743677379.3749692,
+                "auxillary_file_paths": [
+                    "results\\newLargeNero1\\Move To Target\\Move To Target-3999952.pt"
+                ]
+            },
+            {
+                "steps": 4489756,
+                "file_path": "results\\newLargeNero1\\Move To Target\\Move To Target-4489756.onnx",
+                "reward": 289.42857142857144,
+                "creation_time": 1743685188.921658,
+                "auxillary_file_paths": [
+                    "results\\newLargeNero1\\Move To Target\\Move To Target-4489756.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4489756,
+            "file_path": "results\\newLargeNero1\\Move To Target.onnx",
+            "reward": 289.42857142857144,
+            "creation_time": 1743685188.921658,
+            "auxillary_file_paths": [
+                "results\\newLargeNero1\\Move To Target\\Move To Target-4489756.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
